@@ -9,3 +9,5 @@ there is also a simple tether object that allows
 the protoype was made to work on a controller, but the controls are customizable based on the Input Map actions you define and change.
 
 ~ sponsored by strangemother!
+
+![preview](/shortpreview_q_edit_0.gif)
