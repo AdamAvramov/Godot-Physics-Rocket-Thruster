@@ -1,6 +1,6 @@
-# VTOL system for Godot
+# Physics Rocket Thruster
 
-This is a an example demo of a VTOL - vertical take-off and landing system in Godot.
+This is a an example demo of a "Physics Rocket Thruster" system in Godot.
 Implimenting the built-in physics methods of Godot, you will be able to add as many 'Engines' as you like to a rocket/aircraft and pilot it with customized controls.
 The system respects the position and orientation of each 'Engine' to allow for complex creation and flight system.
 
