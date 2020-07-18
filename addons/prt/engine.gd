@@ -1,5 +1,5 @@
 extends Spatial
-class_name VTOL_Engine, "vtol_icon.png"
+class_name PRT_Engine, "prt_icon.png"
 
 # these two material are for visual feedback only when the thruster is active active_mat will be set
 var active_mat = preload("res://resources/materials/active_mat.tres")

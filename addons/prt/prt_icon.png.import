@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/vtol_icon.png-c63ebc7293e92491a81bcb0340ef2349.stex"
+path="res://.import/prt_icon.png-61232a675df0fbec3253ac9d117e0d7a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://addons/vtol/vtol_icon.png"
-dest_files=[ "res://.import/vtol_icon.png-c63ebc7293e92491a81bcb0340ef2349.stex" ]
+source_file="res://addons/prt/prt_icon.png"
+dest_files=[ "res://.import/prt_icon.png-61232a675df0fbec3253ac9d117e0d7a.stex" ]
 
 [params]
 

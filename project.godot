@@ -10,24 +10,24 @@ config_version=4
 
 _global_script_classes=[ {
 "base": "Spatial",
-"class": "VTOL_Engine",
+"class": "PRT_Engine",
 "language": "GDScript",
-"path": "res://addons/vtol/engine.gd"
+"path": "res://addons/prt/engine.gd"
 }, {
 "base": "Spatial",
-"class": "VTOL_Tether",
+"class": "PRT_Tether",
 "language": "GDScript",
-"path": "res://addons/vtol/tether.gd"
+"path": "res://addons/prt/tether.gd"
 } ]
 _global_script_class_icons={
-"VTOL_Engine": "res://addons/vtol/vtol_icon.png",
-"VTOL_Tether": "res://addons/vtol/vtol_icon.png"
+"PRT_Engine": "res://addons/prt/prt_icon.png",
+"PRT_Tether": "res://addons/prt/prt_icon.png"
 }
 
 [application]
 
 config/name="VTOL"
-run/main_scene="res://assets/scenes/vtol_scene.tscn"
+run/main_scene="res://assets/scenes/prt_scene.tscn"
 config/icon="res://icon.png"
 
 [input]

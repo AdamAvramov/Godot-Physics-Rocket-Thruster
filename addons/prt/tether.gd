@@ -1,5 +1,5 @@
 extends Spatial
-class_name VTOL_Tether, "vtol_icon.png"
+class_name PRT_Tether, "prt_icon.png"
 
 # tether pulls a rocket towards it at a fixed length and strength
 
@@ -18,7 +18,7 @@ func _ready():
 func _physics_process(_delta):
 	assert(rocket_node)
 	if not is_instance_valid(rocket_node):
-		return 
+		return
 	var node_pos = rocket_node.get_global_transform().origin
 	var my_pos = get_global_transform().origin
 	look_at(node_pos,Vector3(0,1,0))

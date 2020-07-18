@@ -1,8 +1,8 @@
 [gd_scene load_steps=11 format=2]
 
-[ext_resource path="res://addons/vtol/tether.gd" type="Script" id=1]
+[ext_resource path="res://addons/prt/tether.gd" type="Script" id=1]
 [ext_resource path="res://assets/scripts/camera.gd" type="Script" id=2]
-[ext_resource path="res://addons/vtol/engine.gd" type="Script" id=3]
+[ext_resource path="res://addons/prt/engine.gd" type="Script" id=3]
 
 [sub_resource type="CubeMesh" id=1]
 size = Vector3( 50, 5, 50 )
@@ -23,7 +23,7 @@ height = 1.0
 [sub_resource type="CubeMesh" id=7]
 size = Vector3( 1, 1, 1 )
 
-[node name="VTOL" type="Spatial"]
+[node name="PRT" type="Spatial"]
 
 [node name="Floor" type="MeshInstance" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -2.40082, 0 )
@@ -79,7 +79,7 @@ key_vertical_positive_rotation = "LeftStick_Up"
 key_vertical_negative_rotation = "LeftStick_Down"
 key_horizontal_positive_rotation = "LeftStick_Right"
 key_horizontal_negative_rotation = "LeftStick_Left"
-rocket_node = NodePath("..")
+rocket_node = NodePath("../../../PRT/Rocket")
 
 [node name="TopIndicator" type="MeshInstance" parent="Rocket/Engine_2"]
 transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0.594775, 0 )
@@ -99,7 +99,7 @@ key_vertical_positive_rotation = "DPad_Up"
 key_vertical_negative_rotation = "DPad_Down"
 key_horizontal_positive_rotation = "DPad_Right"
 key_horizontal_negative_rotation = "DPad_Left"
-rocket_node = NodePath("..")
+rocket_node = NodePath("../../../PRT/Rocket")
 
 [node name="TopIndicator" type="MeshInstance" parent="Rocket/Engine_3"]
 transform = Transform( 0.5, 0, 0, 0, 0.5, 0, 0, 0, 0.5, 0, 0.594775, 0 )
@@ -118,7 +118,7 @@ script = ExtResource( 2 )
 [node name="teather" type="Spatial" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 11.7984, -0.0424905 )
 script = ExtResource( 1 )
-rocket_node = NodePath("../Rocket")
+rocket_node = NodePath("../../PRT/Rocket")
 
 [node name="MeshInstance" type="MeshInstance" parent="teather"]
 mesh = SubResource( 7 )
